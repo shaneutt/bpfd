@@ -1,15 +1,31 @@
 # Introduction To Bpfd
 
+## Introduction to eBPF
+
+TODO: (shane)
+
+## Challenges with developing and deploying eBPF programs
+
+TODO: (shane) explain the ergonomic challenges with developing, deploying and
+managing eBPF programs in both traditional and Kubernetes environments.
+
+## Introduction to Bpfd
+
+TODO: overview of bpfd, with a high-level rundown of how to deploy and use it
+
+## Introduction to the Kubernetes bpfd-operator
+
 TODO
 
-Outline:
+### Demonstration
 
-- brief introduction to ebpf
-- explanation of some of the current ergonomic and management issues with deploying ebpf programs, with both traditional hosting and Kubernetes
-- introduction and overview of BPFD, with a basic rundown of how you can deploy it and how it helps you deploy your programs
-- intro to the Kubernetes operator, with another basic rundown
-- walkthrough
+TODO: a walkthrough for the reader to try out bpfd. Notes:
   a. use kind to create a local Kubernetes cluster
   b. deploy the bpfd-operator
   c. deploy one of the example applications as an EbpfProgram resource and test it out
-- introduce the community, including discussions, slack, and weekly syncs and encourage those interested to come join us
+
+## Joining the Bpfd community
+
+TODO: (shane)
+  a. discussions, slack, weekly sync
+  a. discuss projects currently using bpfd
